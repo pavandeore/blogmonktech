@@ -1,0 +1,60 @@
+ul li{
+    list-style: none;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background: crimson;
+    font-size: 20px;
+}
+.navbar ul li{
+    padding: 20px;
+}
+ul li a{
+    color: black;
+}
+ul li:hover{
+    background: rgb(80, 255, 211);
+    transition: 0.5s;
+}
+#hero{
+    padding: 15px;
+    height: 60vh;
+    width: 100vw;
+    text-align: center;
+}
+#hero div h2{
+    font-size: 55px;
+}
+#hero div p{
+    font-size: 25px;
+}
+#hero div img{
+    height: 40vh;
+}
+#about{
+    padding: 15px;
+    height: 60vh;
+    width: 100vw;
+}
+#about p{
+    margin: 20px auto;
+    width: 80%;
+    font-size: 25px;
+}
+#pricing{
+    height: 50vh;
+    width: 100vw;
+}
+#pricing .card{
+    height: 250px;
+}
+footer{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    background: #252525;
+    color: white;
+    padding: 10px;
+}
